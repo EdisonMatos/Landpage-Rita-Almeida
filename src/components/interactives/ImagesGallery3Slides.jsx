@@ -18,12 +18,20 @@ export default function ImagesGallery3Slides(props) {
       thumbnail: slide1,
       originalAlt: 'Piscina grande em resort',
       thumbnailAlt: 'Piscina grande em resort',
+      originalHeight: 100,
+      originalWidth: 100,
+      thumbnailHeight: 50,
+      thumbnailWidth: 50,
     },
     {
       original: slide2,
       thumbnail: slide2,
       originalAlt: "Piscina",
       thumbnailAlt: 'Piscina',
+      originalHeight: 100,
+      originalWidth: 100,
+      thumbnailHeight: 50,
+      thumbnailWidth: 50,
       
     },
     {
@@ -31,6 +39,10 @@ export default function ImagesGallery3Slides(props) {
       thumbnail: slide3,
       originalAlt: "Pessoa sentada na Piscina",
       thumbnailAlt: 'Pessoa sentada na Piscina',
+      originalHeight: 100,
+      originalWidth: 100,
+      thumbnailHeight: 50,
+      thumbnailWidth: 50,
     },
   ];
 

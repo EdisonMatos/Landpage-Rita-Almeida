@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import WhatsAppIcon from "../../assets/importAssets/WhatsAppIcon.png";
+import WhatsAppIcon from "../../assets/importAssets/WhatsAppIcon.webp";
 import { CiUser, CiPhone, CiMail, CiChat1 } from "react-icons/ci";
 import whatsappNumber from "../../abstractions/whats";
 
@@ -206,7 +206,7 @@ const WhatsappForm = () => {
 
       <div className="flex justify-center">
         <button
-          className="flex items-center w-full px-4 py-2 font-medium text-white transition bg-red-700 rounded-lg text-title1 h-14 phone2:h-14 phone3:h18 hover:bg-red-900"
+          className="flex items-center w-full px-4 py-2 font-medium text-white transition bg-primary rounded-lg text-title1 h-14 phone2:h-14 phone3:h18 hover:bg-white hover:text-black"
           onClick={sendToWhatsapp}
         >
           <div className="grid grid-cols-2 items-center justify-evenly w-[60%]">

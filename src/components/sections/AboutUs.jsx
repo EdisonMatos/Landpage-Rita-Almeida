@@ -1,8 +1,8 @@
 import SectionHeader from "../sectionElements/SectionHeader";
 import ImagesGallery3Slides from "../interactives/ImagesGallery3Slides";
-import slide1 from "../../assets/banners/aboutUs/slide1bigPool.jpg";
-import slide2 from "../../assets/banners/aboutUs/slide2smallPool.jpg";
-import slide3 from "../../assets/banners/aboutUs/slide3cleanWater.jpg";
+import slide1 from "../../assets/banners/aboutUs/slide1bigPool.webp";
+import slide2 from "../../assets/banners/aboutUs/slide2smallPool.webp";
+import slide3 from "../../assets/banners/aboutUs/slide3cleanWater.webp";
 import ArticleComponent from "../sectionElements/ArticleComponent";
 import SectionArticle from "../sectionElements/SectionArticle";
 import MotionDivRightToLeft from "../animation/MotionDivRightToLeft";
@@ -27,8 +27,8 @@ export default function AboutUs() {
                 <MotionDivLeftToRight>
                   <SectionArticle
                     articleSubtitle="Nossa História"
-                    articleTitle="Experiência em piscinas olímpicas e semi olímpicas."
-                    articleParagraphOne="A MPA é uma empresa familiar criada especialmente para oferecer um atendimento exclusivo e personalizado aos proprietários de piscinas com grandes volumes de água, como piscinas olímpicas e semi olímpicas, entre outras."
+                    articleTitle="Experiência em piscinas olímpicas e semiolímpicas."
+                    articleParagraphOne="A MPA é uma empresa familiar criada especialmente para oferecer um atendimento exclusivo e personalizado aos proprietários de piscinas com grandes volumes de água, como piscinas olímpicas e semiolímpicas, entre outras."
                     articleParagraphTwo="Sua criação remonta ao ano de 2003, mas seus idealizadores têm ligação com esse segmento há pelo menos 45 anos, contando assim com vasta experiência no atendimento diferenciado que esse tipo de negócio exige."
                     articleParagraphThree="A missão da empresa é se aprimorar a cada dia, subir degrau por degrau, avançar sempre no sentido de cumprir objetivos, entregar ao cliente exatamente o que foi negociado com ele na sua plenitude e, ao final de tudo, ter a certeza de ter proporcionado a ele uma boa experiência de compra. E para que tudo isso aconteça, a empresa tem a clara convicção de que precisa contar sempre com você, cliente! Junte-se à MPA Piscinas!"
                   />

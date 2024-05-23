@@ -1,8 +1,9 @@
 import React, { useEffect, useState } from "react";
-import imgOfficeGreenBackground from "../../assets/importAssets/bg2.jpg";
+import imgOfficeGreenBackground from "../../assets/imgs/paralaxe/bgDarkHouse.webp";
 import ResultsCard from "../cards/ResultsCard";
 import AnimatedCounter from "../util/AnimatedCounter";
 import { Handshake, Building, Box, Truck } from "lucide-react";
+import MotionDivDownToUp from "../animation/MotionDivDownToUp";
 
 export default function Numbers() {
   const [yearsOfService, setYearsOfService] = useState(0);
@@ -33,58 +34,36 @@ export default function Numbers() {
         backgroundAttachment: "fixed",
       }}
     >
-      <div className="w-[88%] max-w-[1110px]">
-        <div className="py-[26px] phone3:py-[48px]">
-          <h1 className="flex flex-col items-center w-full tablet1:flex-row tablet1:justify-between tablet1:flex-wrap desktop1:flex-nowrap">
-            <ResultsCard
-              icon={
-                <Building
-                  size={32}
-                  strokeWidth={1}
-                  aria-label="Ícone de Predio da empresa"
-                  className="text-white"
-                />
-              }
-              number={<AnimatedCounter endValue={yearsOfService} />}
-              text="Anos de serviços prestados"
-            />
-            <ResultsCard
-              icon={
-                <Box
-                  size={32}
-                  strokeWidth={1}
-                  aria-label="Ícone de Caixa de itens"
-                  className="text-white"
-                />
-              }
-              number={<AnimatedCounter endValue={1800} />}
-              text="Quantidade de itens oferecidos"
-            />
-            <ResultsCard
-              icon={
-                <Handshake
-                  size={32}
-                  strokeWidth={1}
-                  aria-label="Ícone de Aperto de mãos"
-                  className="text-white"
-                />
-              }
-              number={<AnimatedCounter endValue={2400} />}
-              text="Número de clientes atendidos anualmente"
-            />
-            <ResultsCard
-              icon={
-                <Truck
-                  size={32}
-                  strokeWidth={1}
-                  aria-label="Ícone de Caminhão de entregas"
-                  className="text-white"
-                />
-              }
-              number={<AnimatedCounter endValue={8000} />}
-              text="Capacidade de entregas diária em kilo/litro"
-            />
+      <div className="w-[90%] max-w-[1215px] gap-[46px] flex flex-col text-center desktop1:flex-row justify-between items-center py-[64px] desktop1:py-[96px] text-white [text-shadow:_2px_3px_0_rgb(0_0_0_/_50%)]">
+        <div className="flex flex-col items-center w-[90%] desktop1:w-[30%] ">
+          <h1 className="text-[72px] font-mainFont leading-[76px] font-bold">
+            <MotionDivDownToUp>
+              <AnimatedCounter endValue={4000} />+
+            </MotionDivDownToUp>
           </h1>
+          <p className=" font-secondFont text-title1 tablet1:text-title3">
+            <MotionDivDownToUp>Seguidores nas redes sociais</MotionDivDownToUp>
+          </p>
+        </div>
+        <div className="flex flex-col items-center w-[90%] desktop1:w-[30%]">
+          <h1 className="text-[72px] font-mainFont leading-[76px] font-bold">
+            <MotionDivDownToUp>
+              <AnimatedCounter endValue={240} />+
+            </MotionDivDownToUp>
+          </h1>
+          <p className="font-secondFont text-title1 tablet1:text-title3">
+            <MotionDivDownToUp>Imóveis vendidos ou alugados</MotionDivDownToUp>
+          </p>
+        </div>
+        <div className="flex flex-col items-center w-[90%] desktop1:w-[30%]">
+          <h1 className="text-[72px] font-mainFont leading-[76px] font-bold">
+            <MotionDivDownToUp>
+              <AnimatedCounter endValue={10} />+
+            </MotionDivDownToUp>
+          </h1>
+          <p className="font-secondFont text-title1 tablet1:text-title3">
+            <MotionDivDownToUp>Anos de Experiência</MotionDivDownToUp>
+          </p>
         </div>
       </div>
     </div>

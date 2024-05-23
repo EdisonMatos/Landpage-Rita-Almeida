@@ -1,6 +1,6 @@
 import ImagesGallery2Slides from "../interactives/ImagesGallery2Slides";
-import imgAtendimentoTablet from "../../assets/banners/bannersCarousel/atendimento-tablet.png";
-import imgEntregasTablet from "../../assets/banners/bannersCarousel/entregas-tablet.png";
+import imgAtendimentoTablet from "../../assets/banners/bannersCarousel/atendimento-tablet.webp";
+import imgEntregasTablet from "../../assets/banners/bannersCarousel/entregas-tablet.webp";
 import MotionDivLeftToRight from "../animation/MotionDivLeftToRight";
 
 export default function TabletBannersCarousel() {

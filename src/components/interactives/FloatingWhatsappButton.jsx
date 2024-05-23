@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import whatsappGif from "../../assets/importAssets/whatsappGif.webp";
+import whatsappWebm from "../../assets/importAssets/whatsappGif.gif";
 import Modal from "../util/Modal";
 
 const FloatingWhatsappButton = () => {
@@ -29,11 +29,13 @@ const FloatingWhatsappButton = () => {
       onClick={() => setOpenModal(!openModal)}
     >
       {openModal ? null : (
-        <img
+        <button>
+          <img
           className="w-16"
-          src={whatsappGif}
+          src={whatsappWebm}
           alt="Floating WhatsApp Button"
         />
+        </button>
       )}
       <Modal isOpen={openModal} setCloseModal={setOpenModal} />
     </button>

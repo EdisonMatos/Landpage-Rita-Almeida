@@ -1,7 +1,7 @@
 import MotionDivLeftToRight from "../animation/MotionDivLeftToRight";
 import MotionDivRightToLeft from "../animation/MotionDivRightToLeft";
 import MotionDivUpToDown from "../animation/MotionDivUpToDown";
-import mpaLogo from "../../assets/importAssets/Logo.png";
+import mpaLogo from "../../assets/importAssets/Logo.webp";
 import { Phone, Mail } from "lucide-react";
 import { Link } from "react-router-dom";
 import { useState } from "react";
@@ -42,7 +42,7 @@ export default function FooterProducts() {
               <a
                 href={whatsappContactLink}
                 target="_blank"
-                className="underline"
+                className="hover:underline"
               >
                 (11) 99488-9426
               </a>
@@ -164,14 +164,14 @@ export default function FooterProducts() {
           <p className="w-full">
             2024 - MPA Piscinas - Todos os direitos reservados
           </p>
-          <p className="">
-            Gostaria de ter um site como este?{" "}
+          <p>
             <a
-              className="underline"
+              className="transition hover:underline"
               target="_blank"
               href="https://www.paperstreet.com.br"
             >
-              Clique aqui
+              {" "}
+              Gostaria de ter um site como este? Clique aqui
             </a>
           </p>
         </MotionDivUpToDown>

@@ -53,6 +53,7 @@ export default function ListGroupProducts() {
           smooth={true}
           duration={500}
           offset={-100}
+          href="#"
         >
           <span className={scrolling ? "hover:text-primary" : ""}>INÍCIO</span>
           <div
@@ -71,6 +72,7 @@ export default function ListGroupProducts() {
           smooth={true}
           duration={500}
           offset={-70}
+          href="#"
         >
           <span className={scrolling ? "hover:text-primary" : ""}>
             SOBRE NÓS
@@ -82,100 +84,102 @@ export default function ListGroupProducts() {
           ></div>
         </Link>
       </li>
-        <button className="relative transition group" onMouseEnter={() => toggleSubMenu(true)}
-        onMouseLeave={() => toggleSubMenu(false)}>
-          <Link
-            to="/"
-            onClick={() => handleLinkClick("products", -70)}
-            className="relative py-4 cursor-pointer"
-            spy={true}
-            smooth={true}
-            duration={500}
-            offset={-70}
+      <button
+        className="relative transition group"
+        onMouseEnter={() => toggleSubMenu(true)}
+        onMouseLeave={() => toggleSubMenu(false)}
+      >
+        <Link
+          to="/"
+          onClick={() => handleLinkClick("products", -70)}
+          className="relative py-4 cursor-pointer"
+          spy={true}
+          smooth={true}
+          duration={500}
+          offset={-70}
+          href="#"
+        >
+          <span
+            className={`inline-block ${scrolling ? "hover:text-primary" : ""}`}
           >
-            <span
-              className={`inline-block ${
-                scrolling ? "hover:text-primary" : ""
-              }`}
-            >
-              PRODUTOS E ACESSÓRIOS
-            </span>
-          </Link>
-          <div
-            className={`animate-${
-              showSubMenu ? "fade-in" : "fade-out"
-            } duration-1000`}
-          >
-            {showSubMenu && (
-              <ul className="absolute py-3 mt-3 uppercase transform -translate-x-1/2 bg-white rounded-lg shadow-2xl w-52 font-mainFont left-1/2">
-                <li>
-                  <a
-                    href="/hth"
-                    className="block w-[80%] mx-auto px-4 py-2 text-center text-tertiary transition duration-500 border-b cursor-pointer hover:text-primary hover:bg-quinary border-neutral-300"
-                  >
-                    HTH
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="/genco"
-                    className="block w-[80%] mx-auto px-4 py-2 text-center text-tertiary transition duration-500 border-b cursor-pointer hover:text-primary hover:bg-quinary border-neutral-300"
-                  >
-                    Genco
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="/neoclor"
-                    className="block w-[80%] mx-auto px-4 py-2 text-center text-tertiary transition duration-500 border-b cursor-pointer hover:text-primary hover:bg-quinary border-neutral-300"
-                  >
-                    Neoclor
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="/hidroazul"
-                    className="block w-[80%] mx-auto px-4 py-2 text-center text-tertiary transition duration-500 border-b cursor-pointer hover:text-primary hover:bg-quinary border-neutral-300"
-                  >
-                    Hidroazul
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="/domclor"
-                    className="block w-[80%] mx-auto px-4 py-2 text-center text-tertiary transition duration-500 border-b cursor-pointer hover:text-primary hover:bg-quinary border-neutral-300"
-                  >
-                    Domclor
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="/suall"
-                    className="block w-[80%] mx-auto px-4 py-2 text-center text-tertiary transition duration-500 border-b cursor-pointer hover:text-primary hover:bg-quinary border-neutral-300"
-                  >
-                    Suall
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="/sodramar"
-                    className="block w-[80%] mx-auto px-4 py-2 text-center text-tertiary transition duration-500 border-b cursor-pointer hover:text-primary hover:bg-quinary border-neutral-300"
-                  >
-                    Sodramar
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="/netuno"
-                    className="block w-[80%] mx-auto px-4 py-2 text-center text-tertiary transition duration-500 cursor-pointer hover:text-primary hover:bg-quinary"
-                  >
-                    Netuno
-                  </a>
-                </li>
-              </ul>
-            )}
-          </div>
-        </button>
+            PRODUTOS E ACESSÓRIOS
+          </span>
+        </Link>
+        <div
+          className={`animate-${
+            showSubMenu ? "fade-in" : "fade-out"
+          } duration-1000`}
+        >
+          {showSubMenu && (
+            <ul className="absolute py-3 mt-3 uppercase transform -translate-x-1/2 bg-white rounded-lg shadow-2xl w-52 font-mainFont left-1/2">
+              <li>
+                <a
+                  href="/hth"
+                  className="block w-[80%] mx-auto px-4 py-2 text-center text-tertiary transition duration-500 border-b cursor-pointer hover:text-primary hover:bg-quinary border-neutral-300"
+                >
+                  HTH
+                </a>
+              </li>
+              <li>
+                <a
+                  href="/genco"
+                  className="block w-[80%] mx-auto px-4 py-2 text-center text-tertiary transition duration-500 border-b cursor-pointer hover:text-primary hover:bg-quinary border-neutral-300"
+                >
+                  Genco
+                </a>
+              </li>
+              <li>
+                <a
+                  href="/neoclor"
+                  className="block w-[80%] mx-auto px-4 py-2 text-center text-tertiary transition duration-500 border-b cursor-pointer hover:text-primary hover:bg-quinary border-neutral-300"
+                >
+                  Neoclor
+                </a>
+              </li>
+              <li>
+                <a
+                  href="/hidroazul"
+                  className="block w-[80%] mx-auto px-4 py-2 text-center text-tertiary transition duration-500 border-b cursor-pointer hover:text-primary hover:bg-quinary border-neutral-300"
+                >
+                  Hidroazul
+                </a>
+              </li>
+              <li>
+                <a
+                  href="/domclor"
+                  className="block w-[80%] mx-auto px-4 py-2 text-center text-tertiary transition duration-500 border-b cursor-pointer hover:text-primary hover:bg-quinary border-neutral-300"
+                >
+                  Domclor
+                </a>
+              </li>
+              <li>
+                <a
+                  href="/suall"
+                  className="block w-[80%] mx-auto px-4 py-2 text-center text-tertiary transition duration-500 border-b cursor-pointer hover:text-primary hover:bg-quinary border-neutral-300"
+                >
+                  Suall
+                </a>
+              </li>
+              <li>
+                <a
+                  href="/sodramar"
+                  className="block w-[80%] mx-auto px-4 py-2 text-center text-tertiary transition duration-500 border-b cursor-pointer hover:text-primary hover:bg-quinary border-neutral-300"
+                >
+                  Sodramar
+                </a>
+              </li>
+              <li>
+                <a
+                  href="/netuno"
+                  className="block w-[80%] mx-auto px-4 py-2 text-center text-tertiary transition duration-500 cursor-pointer hover:text-primary hover:bg-quinary"
+                >
+                  Netuno
+                </a>
+              </li>
+            </ul>
+          )}
+        </div>
+      </button>
       <li className="transition group">
         <Link
           to="/"
@@ -185,6 +189,7 @@ export default function ListGroupProducts() {
           smooth={true}
           duration={500}
           offset={-70}
+          href="#"
         >
           <span className={scrolling ? "hover:text-primary" : ""}>
             CURSOS E PALESTRAS
@@ -205,6 +210,7 @@ export default function ListGroupProducts() {
           smooth={true}
           duration={500}
           offset={-70}
+          href="#"
         >
           <span className={scrolling ? "hover:text-primary" : ""}>
             PERGUNTAS FREQUENTES
@@ -225,6 +231,7 @@ export default function ListGroupProducts() {
           smooth={true}
           duration={500}
           offset={-190}
+          href="#"
         >
           <span className={scrolling ? "hover:text-primary" : ""}>CONTATO</span>
           <div

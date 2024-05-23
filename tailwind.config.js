@@ -4,15 +4,17 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        primary: "#0189BB", // Com primária (clara)
-        secondary: "#00131B", // Cor primária (escura)
-        tertiary: "#014E6B", // Opcional
-        quaternary: "#737373", // Cinza neutro -> Parágrafos
-        quinary: "#EAEAEA ", // Com primária bem clara ou cinza -> Bg de seções
+        primary: "#000000", // Com primária (clara)
+        secondary: "#000000", // Cor primária (escura)
+        tertiary: "#0189BB", // Links
+        quaternary: "#636363", // Cinza neutro -> Parágrafos
+        quinary: "#F6F6F6 ", // Com primária bem clara ou cinza -> Bg de seções
         verylighter: "#21A202",
+        paragraphLight: "#636363", // Cinza neutro -> Parágrafos
       },
       fontFamily: {
-        mainFont: ["Poppins", "sans-serif"],
+        mainFont: ["KeepCalm", "sans-serif"],
+        secondFont: ["Open Sans", "sans-serif"],
       },
       fontSize: {
         paragraph1: "0.625rem", // 10px
