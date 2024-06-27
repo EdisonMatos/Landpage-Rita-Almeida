@@ -1,5 +1,5 @@
 import MotionDivLeftToRight from "../animation/MotionDivLeftToRight";
-import bgImage from "../../assets/imgs/hero/bgHero.webp";
+import bgImage from "../../assets/imgs/hero/bgHero.png";
 import whatsappNumber from "../../abstractions/whats";
 import ButtonWithIcon from "../interactives/ButtonWithIcon";
 
