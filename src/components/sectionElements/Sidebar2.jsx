@@ -7,7 +7,7 @@ import "primeicons/primeicons.css";
 import { HelpCircle, HomeIcon, ServerIcon, UserSearch, AlignJustify } from 'lucide-react';
 import { Link } from "react-scroll";
 import Logo from "../../assets/importAssets/Logo.png";
-import imgAboutPerson from "../../assets/imgs/about/aboutPerson.jpg";
+import imgAboutPerson from "../../assets/imgs/about/aboutImgPerson.png";
 
 export default function HeadlessDemo() {
   const [visible, setVisible] = useState(false);
