@@ -69,7 +69,7 @@ export default function HeadlessDemo() {
                     <img
               src={Logo}
               alt="Logo Rita Almeida Corretora"
-              className="w-[200px] h-auto p-[5px]"
+              className="w-[50%] h-auto p-[5px]"
             />                     
                     </span>
                     <span>
@@ -174,7 +174,7 @@ export default function HeadlessDemo() {
                       <hr className="mx-3 mb-3 border-top-1 surface-border" />
                       <a
                       v-ripple
-                      className="flex phone2:absolute bottom-0 left-0 justify-center items-center gap-2 p-3 m-3 transition-colors cursor-pointer border-round text-700 hover:surface-100 transition-duration-150 p-ripple"
+                      className="flex bottom-0 left-0 justify-center items-center gap-2 p-3 m-3 transition-colors cursor-pointer border-round text-700 hover:surface-100 transition-duration-150 p-ripple"
                     >
                       <img
                         src={imgAboutPerson}
