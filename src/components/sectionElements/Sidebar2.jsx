@@ -75,7 +75,7 @@ export default function HeadlessDemo() {
                     <img
                       src={Logo}
                       alt="Logo Rita Almeida Corretora"
-                      className="w-[50%] h-auto p-[5px]"
+                      className="w-[30%] h-auto p-[5px]"
                     />
                   </span>
                   <span>
