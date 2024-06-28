@@ -74,11 +74,11 @@ export default function AboutImgLeft() {
               Olá, me chamo Rita Almeida, sou corretora de imóveis há mais de 10
               anos e sou formada em adm há 30.
               <br />
-              <br></br>Decidi entrar no ramo quando um colega me fez um elogio
-              "Rita, você é tão comunicativa, deveria ser corretora de imóveis"
-              eu ainda fiquei receosa "há isso não é para mim" mas decidi
-              arriscar, fiz o curso com minha filha ainda pequena, E não me
-              arrependo da decisão que tomei.
+              <br></br>Decidi entrar no ramo quando um colega me fez um elogio:
+              "Rita, você é tão comunicativa, deveria ser corretora de imóveis."
+              Eu ainda fiquei receosa: "Ah, isso não é para mim," mas decidi
+              arriscar. Fiz o curso quando minha filha ainda era pequena e não
+              me arrependo da decisão que tomei.
             </Paragraphs>
           </MotionDivDownToUp>
           <MotionDivDownToUp>
