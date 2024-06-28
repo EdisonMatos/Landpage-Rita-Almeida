@@ -34,6 +34,7 @@ export default function Featuresv2() {
           <FeatureCard
             img={imgRent}
             title="Venda e Aluguel"
+            alt="Imagem pessoa recebendo a chave de sua propriedade"
             description="Conte com nossa experiência para vender ou alugar seu imóvel com rapidez e segurança, garantindo a melhor oferta do mercado."
             onButtonClick={() =>
               handleButtonClick("Venda e Aluguel", "Conteúdo a ser adicionado")
@@ -42,6 +43,7 @@ export default function Featuresv2() {
           <FeatureCard
             img={imgValuation}
             title="Avaliação"
+            alt="Imagem de duas pessoas avaliando um documento"
             description="Realizamos avaliações precisas que captam o verdadeiro valor do seu imóvel, preparando-o para uma oferta ideal."
             onButtonClick={() =>
               handleButtonClick("Avaliação", "Conteúdo a ser adicionado")
@@ -51,6 +53,7 @@ export default function Featuresv2() {
           <FeatureCard
             img={imgDocs}
             title="Negociação e Documentação"
+            alt="Imagem de Pessoa fechando negócio com documentos nas mãos"
             description="Facilitamos todo o processo de documentação e conduzimos negociações eficazes para assegurar uma transação tranquila e vantajosa."
             onButtonClick={() =>
               handleButtonClick(
