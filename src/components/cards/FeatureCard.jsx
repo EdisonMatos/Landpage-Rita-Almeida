@@ -6,13 +6,13 @@ import whatsappNumber from "../../abstractions/whats";
 const whatsappContactLink = `https://wa.me/` + `${whatsappNumber}`;
 
 export default function FeatureCard(props) {
-  const { img, title, description, onButtonClick } = props;
+  const { img, title, description, onButtonClick, alt } = props;
 
   return (
     <MotionDivDownToUp className="bg-white p-[36px] rounded-2xl desktop1:w-[30%] flex flex-col tablet1:flex-row gap-[36px] desktop1:flex-col w-full h-full">
       <img
         src={img}
-        alt=""
+        alt={alt}
         className=" tablet1:w-[50%] desktop1:w-full rounded-2xl"
       />
       <div className="">
