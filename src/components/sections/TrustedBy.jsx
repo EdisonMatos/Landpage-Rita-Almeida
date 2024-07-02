@@ -61,7 +61,7 @@ export default function TrustedBy() {
   };
 
   return (
-    <SectionArea className="bg-quinary">
+    <SectionArea>
       <SectionHeader
         className="text-center"
         sectionHeaderTitle="Trabalhamos com os principais empreendimentos"
