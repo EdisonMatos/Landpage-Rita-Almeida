@@ -106,7 +106,11 @@ export default function NavbarSection() {
               alt="Logo Rita Almeida Corretora"
               className={`${
                 scrolling
-                  ? "w-[25%] max-w-[30%] tablet1:w-[20%] tablet2:max-w-[40%] desktop1:w-[15%] desktop3:w-[10%] transition-all duration-1000"
+
+                 
+
+                  ? "w-[15%] phone3:max-w-[10%] tablet1:w-[10%] tablet2:max-w-[10%] transition-all duration-1000"
+
                   : "my-[10px] w-[20%] phone3:max-w-[15%] tablet1:w-[10%] desktop1:max-w-[15%] transition-colors duration-1000 "
               } tablet3:mb-0`}
             />

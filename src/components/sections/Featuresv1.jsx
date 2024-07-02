@@ -2,10 +2,10 @@ import FeatureImgOnBgCard from "../cards/FeatureImgOnBgCard";
 import SectionArea from "../sectionElements/SectionArea";
 import SectionHeader from "../sectionElements/SectionHeader";
 import SectionWrapper from "../sectionElements/SectionWrapper";
-import imgCasas from "../../assets/imgs/features/house.jpg";
-import imgAps from "../../assets/imgs/features/apartment.jpg";
-import imgTerrenos from "../../assets/imgs/features/land.webp";
-import imgPontos from "../../assets/imgs/features/business.jpg";
+import imgCasas from "../../assets/imgs/features/featuresCasas.png";
+import imgAps from "../../assets/imgs/features/featuresApartamentos.png";
+import imgTerrenos from "../../assets/imgs/features/featuresTerrenos.png";
+import imgPontos from "../../assets/imgs/features/featuresPontosComerciais.png";
 
 export default function Featuresv1() {
   return (
