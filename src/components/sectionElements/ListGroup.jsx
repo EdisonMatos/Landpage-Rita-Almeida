@@ -52,6 +52,31 @@ export default function ListGroup() {
           ></div>
         </Link>
       </li>
+
+      <li className="transition group">
+        <Link
+          to="about"
+          className="relative cursor-pointer font-semibold"
+          spy={true}
+          smooth={true}
+          duration={500}
+          offset={-200}
+          href="#"
+        >
+          <span
+            className={`whitespace-nowrap ${
+              scrolling ? "hover:text-primary" : ""
+            }`}
+          >
+            Sobre Nós
+          </span>
+          <div
+            className={`absolute -bottom-2 left-0 w-full h-0.5 opacity-0 group-hover:opacity-100 transition-opacity duration-300 ${
+              scrolling ? "bg-primary" : "bg-white"
+            }`}
+          ></div>
+        </Link>
+      </li>
       <li className="transition group">
         <Link
           to="service"
@@ -74,26 +99,6 @@ export default function ListGroup() {
       </li>
       <li className="transition group">
         <Link
-          to="about"
-          className="relative cursor-pointer font-semibold"
-          spy={true}
-          smooth={true}
-          duration={500}
-          offset={-200}
-          href="#"
-        >
-          <span className={`whitespace-nowrap ${scrolling ? "hover:text-primary" : ""}`}>
-            Sobre mim
-          </span>
-          <div
-            className={`absolute -bottom-2 left-0 w-full h-0.5 opacity-0 group-hover:opacity-100 transition-opacity duration-300 ${
-              scrolling ? "bg-primary" : "bg-white"
-            }`}
-          ></div>
-        </Link>
-      </li>
-      <li className="transition group">
-        <Link
           to="faq"
           className="relative cursor-pointer font-semibold"
           spy={true}
@@ -102,7 +107,11 @@ export default function ListGroup() {
           offset={-300}
           href="#"
         >
-          <span className={`whitespace-nowrap ${scrolling ? "hover:text-primary" : ""}`}>
+          <span
+            className={`whitespace-nowrap ${
+              scrolling ? "hover:text-primary" : ""
+            }`}
+          >
             Perguntas Frequentes
           </span>
           <div
