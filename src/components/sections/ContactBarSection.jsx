@@ -65,7 +65,7 @@ export default function ContactBarSection() {
               </svg>
             </a>
             <a
-              href="https://twitter.com/rcsalmeida2"
+              href="https://x.com/rcsalmeida2"
               target="_blank"
               className="transition hover:opacity-70"
             >
