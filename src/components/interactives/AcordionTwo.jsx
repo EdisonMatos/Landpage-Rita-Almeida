@@ -14,7 +14,8 @@ export default function AccordionExpandDefault() {
 
   const getPanelStyle = (panel) => {
     return {
-      boxShadow: expanded === panel ? "0px 0px 10px -5px rgba(0, 0, 0, 0.1)" : "none",
+      boxShadow:
+        expanded === panel ? "0px 0px 10px -5px rgba(0, 0, 0, 0.1)" : "none",
       border:
         expanded === panel
           ? "1px solid transparent"
@@ -69,19 +70,19 @@ export default function AccordionExpandDefault() {
         >
           <Typography>
             <h1 className="font-secondFont font-bold">
-              Fui aprovado(a), quais documentos eu preciso?
+              Fui aprovado(a). Quais documentos eu preciso?
             </h1>
           </Typography>
         </AccordionSummary>
         <AccordionDetails>
           <Typography>
             <p className="font-secondFont text-paragraph4 text-paragraphLight ">
-              É preciso que me envie em PDF: RG, CPF, certidão de nascimento ou
+              É preciso que me envie em PDF: RG, CPF, Certidão de nascimento ou
               de casamento (se for casado é necessário a documentação do
-              cônjuge), comprovante de endereço no nome do titular e por último,
-              imposto de renda ou contracheque, caso clt, é necessário carteira
-              de trabalho digital, e caso queira utilizar o FGTS é necessário o
-              extrato dele também.
+              cônjuge), comprovante de endereço no nome do titular e, por
+              último, Imposto de Renda ou contracheque, caso CLT, é necessário
+              Carteira de Trabalho Digital, e caso queira utilizar o FGTS é
+              necessário o extrato dele também.
             </p>
           </Typography>
         </AccordionDetails>
@@ -123,7 +124,7 @@ export default function AccordionExpandDefault() {
         style={getPanelStyle("panel4")}
       >
         <AccordionSummary
-        className=" h-[76px]"
+          className=" h-[76px]"
           expandIcon={<ExpandMoreIcon />}
           aria-controls="panel4-content"
           id="panel4-header"
