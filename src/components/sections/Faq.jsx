@@ -4,6 +4,10 @@ import SectionArea from "../sectionElements/SectionArea";
 import SectionHeader from "../sectionElements/SectionHeader";
 import SectionWrapper from "../sectionElements/SectionWrapper";
 import AccordionExpandDefault from "../interactives/AcordionTwo";
+import whatsappNumber from "../../abstractions/whats";
+
+const whatsappContactLink = `https://wa.me/` + `${whatsappNumber}`;
+
 export default function Faq() {
   return (
     <SectionArea className="bg-quinary">
@@ -26,12 +30,12 @@ export default function Faq() {
           <Paragraphs>
             Para demais dúvidas,{" "}
             <a
-              href="#"
+              href={whatsappContactLink}
               target="_blank"
               className="transition text-tertiary hover:underline"
             >
               {" "}
-              clique aqui
+              fale comigo clicando aqui
             </a>
           </Paragraphs>
         </MotionDivDownToUp>
