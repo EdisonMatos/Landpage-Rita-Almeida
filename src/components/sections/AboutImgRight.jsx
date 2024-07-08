@@ -69,7 +69,7 @@ export default function AboutImgRight() {
               </a>
             </MotionDivDownToUp>
             <MotionDivDownToUp>
-              <a href="https://twitter.com/rcsalmeida2" target="_blank">
+              <a href="https://x.com/rcsalmeida2" target="_blank">
                 <ButtonWithIconLight
                   label="Me siga no Twitter"
                   icon={
