@@ -3,7 +3,7 @@ import Paragraphs from "../sectionElements/Paragraphs";
 import SectionArea from "../sectionElements/SectionArea";
 import SectionTitles from "../sectionElements/SectionTitles";
 import SectionWrapper from "../sectionElements/SectionWrapper";
-import imgAboutPerson from "../../assets/imgs/about/aboutImgPerson.png";
+import imgAboutPerson from "../../assets/imgs/about/aboutRita.png";
 import ButtonWithIcon from "../interactives/ButtonWithIcon";
 import MotionDivDownToUp from "../animation/MotionDivDownToUp";
 import { Dialog } from "primereact/dialog";
