@@ -2,7 +2,6 @@ import "primeicons/primeicons.css";
 import "primeicons/primeicons.css";
 import React, { useState } from "react";
 import { Dialog } from "primereact/dialog";
-import TrustedByMore from "./TrustedByMore.jsx";
 import "primereact/resources/primereact.min.css";
 import "primereact/resources/themes/saga-blue/theme.css";
 import Paragraphs from "../sectionElements/Paragraphs";
@@ -17,6 +16,12 @@ import trustedByImg3 from "../../assets/imgs/trustedBy/trustedBy3.png";
 import trustedByImg4 from "../../assets/imgs/trustedBy/trustedBy4.png";
 import trustedByImg5 from "../../assets/imgs/trustedBy/trustedBy5.png";
 import trustedByImg6 from "../../assets/imgs/trustedBy/trustedBy6.png";
+import trustedByImg7 from "../../assets/imgs/trustedBy/trustedBy7.png";
+import trustedByImg8 from "../../assets/imgs/trustedBy/trustedBy8.png";
+import trustedByImg9 from "../../assets/imgs/trustedBy/trustedBy9.png";
+import trustedByImg10 from "../../assets/imgs/trustedBy/trustedBy10.png";
+import trustedByImg11 from "../../assets/imgs/trustedBy/trustedBy11.png";
+import trustedByImg12 from "../../assets/imgs/trustedBy/trustedBy12.png";
 
 const images = [
   {
@@ -29,19 +34,43 @@ const images = [
   },
   {
     src: trustedByImg3,
-    alt: "trustedBy1",
+    alt: "trustedBy3",
   },
   {
     src: trustedByImg4,
-    alt: "trustedBy1",
+    alt: "trustedBy4",
   },
   {
     src: trustedByImg5,
-    alt: "trustedBy1",
+    alt: "trustedBy5",
   },
   {
     src: trustedByImg6,
-    alt: "trustedBy1",
+    alt: "trustedBy6",
+  },
+  {
+    src: trustedByImg7,
+    alt: "trustedBy7",
+  },
+  {
+    src: trustedByImg8,
+    alt: "trustedBy8",
+  },
+  {
+    src: trustedByImg9,
+    alt: "trustedBy9",
+  },
+  {
+    src: trustedByImg10,
+    alt: "trustedBy10",
+  },
+  {
+    src: trustedByImg11,
+    alt: "trustedBy11",
+  },
+  {
+    src: trustedByImg12,
+    alt: "trustedBy12",
   },
 ];
 
@@ -71,7 +100,7 @@ export default function TrustedBy() {
         <MotionDivDownToUp className="w-full mb-[26px] tablet1:mb-[40px] desktop1:mb-[80px]">
           <LogoDisplay images={images} />
         </MotionDivDownToUp>
-        <MotionDivDownToUp className="">
+        {/* <MotionDivDownToUp className="">
           <Paragraphs className="text-center">
             Para ver todas seguradoras que trabalhamos,{" "}
             <span
@@ -81,7 +110,7 @@ export default function TrustedBy() {
               clique aqui
             </span>
           </Paragraphs>
-        </MotionDivDownToUp>
+        </MotionDivDownToUp> */}
       </SectionWrapper>
       <Dialog
         className="font-secondFont"
