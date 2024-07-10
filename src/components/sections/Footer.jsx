@@ -8,14 +8,14 @@ const whatsappContactLink = `https://wa.me/` + `${whatsappNumber}`;
 
 function Footer() {
   return (
-    <footer className="bg-secondary full gap-y-[42px]  text-white font-secondFont text-left text-paragraph4 flex flex-col py-[26px] phone3:py-[48px] justify-between items-center">
-      <div className=" w-[90%] max-w-[1215px] flex flex-col gap-y-[42px]  desktop1:flex-row desktop1:justify-between">
+    <footer className="bg-secondary full gap-y-[42px] text-white font-secondFont text-left text-paragraph4 flex flex-col py-[26px] phone3:py-[48px] justify-between items-center">
+      <div className=" w-[90%] max-w-[1215px] flex flex-col gap-y-[42px] desktop1:flex-row desktop1:justify-between">
         <MotionDivDownToUp>
           <div className="flex flex-col gap-y-[16px] desktop1:w-[290px]">
             <img
               alt="Logo"
               src={Logo}
-              className="w-[250px] h-auto invert my-[30px]"
+              className="w-[55px] h-auto my-[30px]"
             ></img>
             <p className="full">Transformando desejos em endereços.</p>
             <div className="flex full gap-x-[8px] items-center">
