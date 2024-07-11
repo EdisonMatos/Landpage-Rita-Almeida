@@ -92,29 +92,15 @@ export default function NavbarSection() {
         }`}
       >
         <Navbar>
-          <ScrollLink
-            to="home"
-            className="cursor-pointer"
-            spy={true}
-            smooth={true}
-            duration={500}
-            offset={-100}
-            href="#"
-          >
-            <img
-              src={Logo}
-              alt="Logo Rita Almeida Corretora"
-              className={`${
-                scrolling
-
-                 
-
-                  ? "w-[15%] phone3:max-w-[10%] tablet1:w-[10%] tablet2:max-w-[10%] transition-all duration-1000"
-
-                  : "my-[10px] w-[20%] phone3:max-w-[15%] tablet1:w-[10%] desktop1:max-w-[15%] transition-colors duration-1000 "
-              } tablet3:mb-0`}
-            />
-          </ScrollLink>
+          <img
+            src={Logo}
+            alt="Logo Rita Almeida Corretora"
+            className={`${
+              scrolling
+                ? "w-[15%] phone3:max-w-[10%] tablet1:w-[10%] tablet2:max-w-[10%] desktop1:max-w-[5%] transition-all duration-1000"
+                : "my-[10px] w-[20%] phone3:max-w-[15%] tablet1:w-[10%] desktop1:max-w-[7%] transition-colors duration-1000 "
+            } tablet3:mb-0`}
+          />
           <div className="flex items-center justify-between gap-[16px]">
             <div className="hidden tablet1:flex desktop1:hidden">
               <ButtonWithIconNavbar
