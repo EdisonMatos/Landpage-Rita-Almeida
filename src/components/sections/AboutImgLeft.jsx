@@ -3,7 +3,7 @@ import Paragraphs from "../sectionElements/Paragraphs";
 import SectionArea from "../sectionElements/SectionArea";
 import SectionTitles from "../sectionElements/SectionTitles";
 import SectionWrapper from "../sectionElements/SectionWrapper";
-import imgAboutPerson from "../../assets/imgs/about/aboutImgPerson.png";
+import imgAboutPerson from "../../assets/imgs/about/aboutRita.png";
 import ButtonWithIcon from "../interactives/ButtonWithIcon";
 import MotionDivDownToUp from "../animation/MotionDivDownToUp";
 import { Dialog } from "primereact/dialog";
@@ -58,7 +58,7 @@ export default function AboutImgLeft() {
     <SectionArea className="">
       <SectionWrapper className="flex flex-col desktop1:flex-row gap-[40px] desktop1:gap-0 desktop1:justify-between">
         <MotionDivDownToUp className="w-[100%] desktop1:w-[415px] desktop2:w-[485px]">
-          <img src={imgAboutPerson} alt="Foto de pessoa" className="w-full" />
+          <img src={imgAboutPerson} alt="Foto de pessoa" className="w-full rounded-2xl" />
         </MotionDivDownToUp>
 
         <div className="desktop1:w-[450px] desktop2:w-[570px]" id="about">
