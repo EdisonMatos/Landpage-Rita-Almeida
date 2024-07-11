@@ -127,7 +127,7 @@ export default function HeadlessDemo() {
                                     spy={true}
                                     smooth={true}
                                     duration={500}
-                                    offset={-1000}
+                                    offset={-500}
                                     href="#"
                                   >
                                     Sobre Nós
