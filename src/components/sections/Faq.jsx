@@ -19,14 +19,12 @@ export default function Faq() {
 
       <SectionWrapper className="flex justify-center">
         <MotionDivDownToUp className="w-full flex justify-center">
-          <div
-            className="w-[90%] tablet1:w-[80%] desktop1:w-[80%] max-w-[860px] mb-[26px] tablet1:mb-[40px] desktop1:mb-[80px]"
-          >
+          <div className="w-[90%] tablet1:w-[80%] desktop1:w-[80%] max-w-[860px] mb-[26px] tablet1:mb-[40px] desktop1:mb-[80px]">
             <AccordionExpandDefault />
           </div>
         </MotionDivDownToUp>
         <MotionDivDownToUp>
-          <Paragraphs>
+          <Paragraphs className="text-center">
             Para demais dúvidas,{" "}
             <a
               href={whatsappContactLink}
