@@ -60,7 +60,7 @@ export default function ListGroup() {
           spy={true}
           smooth={true}
           duration={500}
-          offset={-200}
+          offset={-80}
           href="#"
         >
           <span
@@ -84,7 +84,7 @@ export default function ListGroup() {
           spy={true}
           smooth={true}
           duration={500}
-          offset={-350}
+          offset={-70}
           href="#"
         >
           <span className={scrolling ? "hover:text-primary" : ""}>
@@ -104,7 +104,7 @@ export default function ListGroup() {
           spy={true}
           smooth={true}
           duration={500}
-          offset={-300}
+          offset={-80}
           href="#"
         >
           <span
