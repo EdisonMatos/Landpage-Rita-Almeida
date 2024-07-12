@@ -23,7 +23,7 @@ export default function FeatureCard(props) {
           <MotionDivDownToUp>{description}</MotionDivDownToUp>
         </p>
         <MotionDivDownToUp>
-          <div className="flex justify-center w-full desktop1:justify-start">
+          <div className="flex justify-start">
             <a href={whatsappContactLink} target="_blank">
               <ButtonWithIcon
                 label="Saiba mais"
