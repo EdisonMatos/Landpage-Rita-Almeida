@@ -16,17 +16,17 @@ export default function HeroSection() {
           <div className="w-full text-white justify-evenly pb-[30px]">
             <div className="h-[120px] phone2:h-[132px] tablet1:h-[145px] desktop3:h-[190px]" />
             <div className="flex flex-col desktop1:flex-row mx-auto mb-[40px] w-[90%] max-w-[1215px] items-center gap-10 tablet2:gap-14 desktop3:gap-20">
-              <div className="desktop1:w-[850px] flex flex-col gap-8">
+              <div className="desktop1:w-[600px] flex flex-col gap-8">
                 <MotionDivLeftToRight>
-                  <div className="font-medium leading-none text-center desktop1:text-left text-title3 phone1:text-title5 phone3:text-title6 tablet1:text-title7 desktop1:text-[66px]">
-                    <h1 className="[text-shadow:_2px_3px_0_rgb(0_0_0_/_50%)]">
+                  <div className="font-medium leading-none text-center desktop1:text-left text-title6 phone1:text-[36px] phone2:text-[40px] phone3:text-[44px] tablet1:text-[48px] desktop1:text-[48px]">
+                    <h1 className="">
                       Transformando desejos em endereços
                     </h1>
                   </div>
                 </MotionDivLeftToRight>
                 <MotionDivLeftToRight>
                   <div className="text-center desktop1:text-left phone1:w-full font-secondFont phone1:text-title1">
-                    <p className="[text-shadow:_1.8px_1.8px_2px_rgb(0_0_0_/_150%)]">
+                    <p className="">
                       Com paixão e excelência, o lar ideal é nossa
                       especialidade!
                     </p>

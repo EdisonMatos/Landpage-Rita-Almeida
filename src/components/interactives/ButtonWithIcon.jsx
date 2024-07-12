@@ -8,7 +8,7 @@ export default function ButtonWithIcon({ icon, label, onClick }) {
     >
       <div className="flex items-center text-center gap-[20px]">
         <div className="">{icon}</div>
-        <p className="flex items-center text-paragraph4 font-mainFont">
+        <p className="flex items-center text-paragraph4 font-secondFont">
           {label}
         </p>
       </div>
