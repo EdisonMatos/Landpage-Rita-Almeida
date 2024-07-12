@@ -13,7 +13,7 @@ import {
 } from "lucide-react";
 import { Link } from "react-scroll";
 import Logo from "../../assets/importAssets/Logo.png";
-import imgAboutPerson from "../../assets/imgs/about/aboutImgPerson.png";
+import imgAboutPerson from "../../assets/imgs/about/aboutRita.png";
 
 export default function HeadlessDemo() {
   const [visible, setVisible] = useState(false);

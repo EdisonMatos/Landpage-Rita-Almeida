@@ -122,22 +122,22 @@ export default function AboutImgRight() {
 
         <MotionDivDownToUp className="w-[100%] desktop1:w-[360px] desktop2:w-[300px]">
           <img
-            onClick={handleClick}
+            // onClick={handleClick}
             src={imgAboutPhone}
             alt="Foto de celular"
-            className="w-[100%] cursor-pointer"
+            className="w-[100%]"
           />
         </MotionDivDownToUp>
       </SectionWrapper>
-      <Dialog
+      {/* <Dialog
         header="Me siga nas redes sociais"
         visible={visible}
         onHide={() => setVisible(false)}
         style={{ width: "50vw" }}
         breakpoints={{ "960px": "75vw", "641px": "90vw" }}
       >
-        <p className="m-0">Conteúdo a ser adicionado</p>
-      </Dialog>
+        <p className="m-0">Vídeo</p>
+      </Dialog> */}
     </SectionArea>
   );
 }
