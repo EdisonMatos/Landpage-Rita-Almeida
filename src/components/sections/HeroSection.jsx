@@ -14,7 +14,7 @@ export default function HeroSection() {
       >
         <div className="bg-black bg-opacity-50 flex flex-col items-center">
           <div className="flex h-[120px] phone2:h-[120px] tablet1:h-[145px] desktop3:h-[145px]" />
-          <div className="flex flex-col w-[90%] max-w-[1215px] items-start py-[60px] desktop1:py-[100px]">
+          <div className="flex flex-col w-[90%] max-w-[1215px] items-start pb-[80px] pt-[50px] desktop1:pb-[100px] desktop1:pt-[80px]">
             <div className=" desktop1:w-[700px] flex flex-col text-white">
               <MotionDivLeftToRight>
                 <div className="text-center desktop1:text-left w-auto font-secondFont phone1:text-paragraph4">
