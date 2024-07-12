@@ -127,7 +127,7 @@ export default function HeadlessDemo() {
                                     spy={true}
                                     smooth={true}
                                     duration={500}
-                                    offset={-500}
+                                    offset={-50}
                                     href="#"
                                   >
                                     Sobre Nós
@@ -146,7 +146,7 @@ export default function HeadlessDemo() {
                                     spy={true}
                                     smooth={true}
                                     duration={500}
-                                    offset={-300}
+                                    offset={-70}
                                     href="#"
                                   >
                                     Serviços
@@ -165,7 +165,7 @@ export default function HeadlessDemo() {
                                     spy={true}
                                     smooth={true}
                                     duration={500}
-                                    offset={-300}
+                                    offset={-70}
                                     href="#"
                                   >
                                     Perguntas Frequentes

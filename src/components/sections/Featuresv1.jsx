@@ -9,7 +9,7 @@ import imgPontos from "../../assets/imgs/features/featuresPontosComerciais.png";
 
 export default function Featuresv1() {
   return (
-    <SectionArea className="bg-quinary desktop1:pb-[0px]">
+    <SectionArea id="service" className="bg-quinary desktop1:pb-[0px]">
       <SectionHeader
         className="text-center"
         sectionHeaderTitle="Trabalhamos com todos os tipos de imóveis"
@@ -18,7 +18,7 @@ export default function Featuresv1() {
       <SectionWrapper>
         <div
           className="flex flex-wrap justify-between w-full gap-[36px] tablet1:gap-[24px]"
-          id="service"
+          
         >
           <FeatureImgOnBgCard
             bgImg={imgCasas}
