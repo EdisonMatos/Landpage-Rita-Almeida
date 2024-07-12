@@ -18,7 +18,7 @@ export default function HeroSection() {
             <div className="flex flex-col desktop1:flex-row mx-auto mb-[40px] w-[90%] max-w-[1215px] items-center gap-10 tablet2:gap-14 desktop3:gap-20">
               <div className="desktop1:w-[600px] flex flex-col gap-8">
                 <MotionDivLeftToRight>
-                  <div className="font-medium leading-none text-center desktop1:text-left text-title6 phone1:text-[36px] phone2:text-[40px] phone3:text-[44px] tablet1:text-[48px] desktop1:text-[60px]">
+                  <div className="font-medium leading-none text-center desktop1:text-left text-title6 phone1:text-[36px] phone2:text-[40px] phone3:text-[44px] tablet1:text-[48px] desktop1:text-[48px]">
                     <h1 className="">
                       Transformando desejos em endereços
                     </h1>
