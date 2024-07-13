@@ -90,7 +90,7 @@ export default function TrustedBy() {
   };
 
   return (
-    <SectionArea>
+    <div className="w-full pt-[40px] flex flex-col items-center tablet1:pt-[64px] desktop1:pt-[96px]">
       <SectionHeader
         className="text-center"
         sectionHeaderTitle="Trabalhamos com os principais empreendimentos"
@@ -122,6 +122,6 @@ export default function TrustedBy() {
       >
         <p className="m-0 ">{modalContent}</p>
       </Dialog>
-    </SectionArea>
+    </div>
   );
 }
