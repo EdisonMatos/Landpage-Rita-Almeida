@@ -33,8 +33,8 @@ export default function Numbers() {
         backgroundRepeat: "no-repeat",
       }}
     >
-      <div className="flex justify-center w-full bg-black bg-opacity-50">
-        <div className="w-[90%] max-w-[1215px] gap-[46px] flex flex-col text-center desktop1:flex-row justify-between items-center py-[64px] desktop1:py-[96px] text-white [text-shadow:_2px_3px_0_rgb(0_0_0_/_50%)]">
+      <div className="flex justify-center w-full bg-black bg-opacity-60">
+        <div className="w-[90%] max-w-[1215px] gap-[46px] flex flex-col text-center desktop1:flex-row justify-between items-center py-[64px] desktop1:py-[96px] text-white">
           <div className="flex flex-col items-center w-[90%] desktop1:w-[30%] ">
             <h1 className="text-[72px] font-mainFont leading-[76px] font-bold">
               <MotionDivDownToUp>
