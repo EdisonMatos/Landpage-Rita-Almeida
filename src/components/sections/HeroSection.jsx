@@ -40,7 +40,11 @@ export default function HeroSection() {
               <div className="w-full phone2:w-full tablet2:w-auto">
                 <MotionDivLeftToRight>
                   <div className="flex justify-center w-full desktop1:justify-start">
-                    <a href={whatsappContactLink} target="_blank">
+                    <a
+                      href={whatsappContactLink}
+                      target="_blank"
+                      className="invert"
+                    >
                       <ButtonWithIcon
                         label="Consultar Imóveis"
                         icon={
