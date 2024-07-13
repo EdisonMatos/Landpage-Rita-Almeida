@@ -46,6 +46,7 @@ export default function ContactBarSection() {
               href="https://www.instagram.com/ritaalmeida_corretora/"
               target="_blank"
               className="transition hover:opacity-70"
+              aria-label="Link para o instagram"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -68,6 +69,7 @@ export default function ContactBarSection() {
               href="https://x.com/rcsalmeida2"
               target="_blank"
               className="transition hover:opacity-70"
+              aria-label="Link para o twitter"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -88,6 +90,7 @@ export default function ContactBarSection() {
               href="https://www.facebook.com/ritadecassiasobreiradealmeida.almeida/"
               target="_blank"
               className="transition hover:opacity-70"
+              aria-label="Link para o facebook"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"

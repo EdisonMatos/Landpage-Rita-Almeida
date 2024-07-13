@@ -34,7 +34,7 @@ export default function ListGroup() {
         scrolling ? "" : "text-white transition-color duration-1000"
       }`}
     >
-      <li className="transition group">
+      <li className="transition group h-[24px]">
         <Link
           to="home"
           className="relative font-semibold cursor-pointer"
@@ -44,7 +44,13 @@ export default function ListGroup() {
           offset={-100}
           href="#"
         >
-          <span className={scrolling ? "hover:text-primary" : ""}>Início</span>
+          <span
+            className={`h-[24px] inline-block ${
+              scrolling ? "hover:text-primary" : ""
+            }`}
+          >
+            Início
+          </span>
           <div
             className={`absolute -bottom-2 left-0 w-full h-0.5 opacity-0 group-hover:opacity-100 transition-opacity duration-300 ${
               scrolling ? "bg-primary" : "bg-white"
@@ -52,7 +58,7 @@ export default function ListGroup() {
           ></div>
         </Link>
       </li>
-      <li className="transition group">
+      <li className="transition group h-[24px]">
         <Link
           to="about"
           className="relative font-semibold cursor-pointer"
@@ -63,7 +69,7 @@ export default function ListGroup() {
           href="#"
         >
           <span
-            className={`whitespace-nowrap ${
+            className={`h-[24px] inline-block ${
               scrolling ? "hover:text-primary" : ""
             }`}
           >
@@ -76,7 +82,7 @@ export default function ListGroup() {
           ></div>
         </Link>
       </li>
-      <li className="transition group">
+      <li className="transition group h-[24px]">
         <Link
           to="service"
           className="relative font-semibold cursor-pointer"
@@ -86,7 +92,11 @@ export default function ListGroup() {
           offset={-70}
           href="#"
         >
-          <span className={scrolling ? "hover:text-primary" : ""}>
+          <span
+            className={`h-[24px] inline-block ${
+              scrolling ? "hover:text-primary" : ""
+            }`}
+          >
             Serviços
           </span>
           <div
@@ -96,7 +106,7 @@ export default function ListGroup() {
           ></div>
         </Link>
       </li>
-      <li className="transition group">
+      <li className="transition group h-[24px]">
         <Link
           to="faq"
           className="relative font-semibold cursor-pointer"
@@ -107,7 +117,7 @@ export default function ListGroup() {
           href="#"
         >
           <span
-            className={`whitespace-nowrap ${
+            className={`h-[24px] inline-block ${
               scrolling ? "hover:text-primary" : ""
             }`}
           >
