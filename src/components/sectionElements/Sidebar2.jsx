@@ -90,7 +90,7 @@ export default function HeadlessDemo() {
                     ></Button>
                   </span>
                 </div>
-                <div className="overflow-y-auto h-screen">
+                <div className="h-screen overflow-y-auto">
                   <hr className="m-5 mx-3 border-top-1 surface-border" />
                   <ul className="p-3 m-0 list-none">
                     <li>
@@ -178,17 +178,17 @@ export default function HeadlessDemo() {
                         </ul>
                       )}
                     </li>
-                    <hr className="mx-3 mb-3 border-top-1 surface-border" />
+                    {/* <hr className="mx-3 mb-3 border-top-1 surface-border" />
                     <a
                       v-ripple
-                      className="flex bottom-0 left-0 justify-center items-center gap-2 p-3 m-3 transition-colors cursor-pointer border-round text-700 hover:surface-100 transition-duration-150 p-ripple"
+                      className="bottom-0 left-0 flex items-center justify-center gap-2 p-3 m-3 transition-colors cursor-pointer border-round text-700 hover:surface-100 transition-duration-150 p-ripple"
                     >
                       <img
                         src={imgAboutPerson}
                         alt="Foto de pessoa"
                         className="w-[100%]"
                       />
-                    </a>
+                    </a> */}
                   </ul>
                 </div>
               </div>
