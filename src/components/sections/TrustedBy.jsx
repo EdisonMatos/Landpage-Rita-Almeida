@@ -90,17 +90,17 @@ export default function TrustedBy() {
   };
 
   return (
-    <SectionArea>
+    <div className="w-full pt-[40px] flex flex-col items-center tablet1:pt-[64px] desktop1:pt-[96px]">
       <SectionHeader
         className="text-center"
         sectionHeaderTitle="Trabalhamos com os principais empreendimentos"
         sectionHeaderSubtitle="Conectando você aos melhores e mais confiáveis empreendimentos do mercado"
       />
-      <SectionWrapper>
-        <MotionDivDownToUp className="w-full mb-[26px] tablet1:mb-[40px] desktop1:mb-[80px]">
-          <LogoDisplay images={images} />
-        </MotionDivDownToUp>
-        {/* <MotionDivDownToUp className="">
+
+      <MotionDivDownToUp className="w-full mb-[26px] tablet1:mb-[40px] desktop1:mb-[80px]">
+        <LogoDisplay images={images} />
+      </MotionDivDownToUp>
+      {/* <MotionDivDownToUp className="">
           <Paragraphs className="text-center">
             Para ver todas seguradoras que trabalhamos,{" "}
             <span
@@ -111,7 +111,7 @@ export default function TrustedBy() {
             </span>
           </Paragraphs>
         </MotionDivDownToUp> */}
-      </SectionWrapper>
+
       <Dialog
         className="font-secondFont"
         header={modalTitle}
@@ -122,6 +122,6 @@ export default function TrustedBy() {
       >
         <p className="m-0 ">{modalContent}</p>
       </Dialog>
-    </SectionArea>
+    </div>
   );
 }
