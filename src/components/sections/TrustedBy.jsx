@@ -96,11 +96,11 @@ export default function TrustedBy() {
         sectionHeaderTitle="Trabalhamos com os principais empreendimentos"
         sectionHeaderSubtitle="Conectando você aos melhores e mais confiáveis empreendimentos do mercado"
       />
-
-      <MotionDivDownToUp className="w-full mb-[26px] tablet1:mb-[40px] desktop1:mb-[80px]">
-        <LogoDisplay images={images} />
-      </MotionDivDownToUp>
-      {/* <MotionDivDownToUp className="">
+      <SectionWrapper>
+        <MotionDivDownToUp className="w-full mb-[26px] tablet1:mb-[40px] desktop1:mb-[80px]">
+          <LogoDisplay images={images} />
+        </MotionDivDownToUp>
+        {/* <MotionDivDownToUp className="">
           <Paragraphs className="text-center">
             Para ver todas seguradoras que trabalhamos,{" "}
             <span
@@ -111,7 +111,7 @@ export default function TrustedBy() {
             </span>
           </Paragraphs>
         </MotionDivDownToUp> */}
-
+      </SectionWrapper>
       <Dialog
         className="font-secondFont"
         header={modalTitle}
