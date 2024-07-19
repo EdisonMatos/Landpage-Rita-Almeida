@@ -108,16 +108,13 @@ const WhatsappForm = () => {
 
   return (
     <div className="phone3:mx-auto text-paragraph3 phone3:text-paragraph4">
-      <h1 className="w-full mb-2 font-medium phone3:text-title1 tablet1:text-paragraph3">
+      <h1 className="w-full mb-2 phone3:text-title1 tablet1:text-paragraph3 desktop1:text-title1 font-black font-mainFont">
         Entre em contato agora
       </h1>
-      <div className="mb-5">
-        <div className="flex mb-4 text-gray-500">
-          <div className="flex items-center justify-center w-12 px-1 bg-white ">
-            <CiUser />
-          </div>
+      <div className="mb-2">
+        <div className="flex mb-3 text-gray-500">
           <input
-            className="w-full px-1 py-2 border-0 rounded-none rounded-tr-none-md rounded-br-none-md"
+            className="w-full px-1 py-2 border-[1px] border-black rounded-3xl pl-[20px] font-mainFont h-[50px]"
             type="text"
             id="name"
             value={name}
@@ -133,35 +130,10 @@ const WhatsappForm = () => {
         )}
       </div>
 
-      <div className="mb-5">
-        <div className="flex mb-4 text-gray-500">
-          <div className="flex items-center justify-center w-12 px-1 bg-white ">
-            <CiPhone />
-          </div>
+      <div className="mb-2">
+        <div className="flex mb-3 text-gray-500">
           <input
-            className="w-full px-1 py-2 border-0 rounded-none rounded-tr-none-md rounded-br-none-md"
-            type="tel"
-            id="phone"
-            value={phone}
-            onChange={handlePhoneChange}
-            placeholder="Telefone"
-            required
-          />
-        </div>
-        {errors.phone && (
-          <p className="-mt-2 -mb-1 text-red-500 text-paragraph3">
-            {errors.phone}
-          </p>
-        )}
-      </div>
-
-      <div className="mb-5">
-        <div className="flex mb-4 text-gray-500">
-          <div className="flex items-center justify-center w-12 px-1 bg-white ">
-            <CiMail />
-          </div>
-          <input
-            className="w-full px-1 py-2 border-0 rounded-none rounded-tr-none-md rounded-br-none-md"
+            className="w-full px-1 py-2 border-[1px] border-black rounded-3xl pl-[20px] font-mainFont h-[50px]"
             type="email"
             id="email"
             value={email}
@@ -182,13 +154,29 @@ const WhatsappForm = () => {
         )}
       </div>
 
+      <div className="mb-2">
+        <div className="flex mb-3 text-gray-500">
+          <input
+            className="w-full px-1 py-2 border-[1px] border-black rounded-3xl pl-[20px] font-mainFont h-[50px]"
+            type="tel"
+            id="phone"
+            value={phone}
+            onChange={handlePhoneChange}
+            placeholder="Telefone"
+            required
+          />
+        </div>
+        {errors.phone && (
+          <p className="-mt-2 -mb-1 text-red-500 text-paragraph3">
+            {errors.phone}
+          </p>
+        )}
+      </div>
+
       <div className="mb-5">
-        <div className="flex mb-4 text-gray-500">
-          <div className="flex justify-center w-12 px-1 bg-white ">
-            <CiChat1 className="h-11" />
-          </div>
+        <div className="flex mb-3 text-gray-500">
           <textarea
-            className="w-full px-1 py-2 border-0 rounded-none rounded-tr-none-md rounded-br-none-md"
+            className="w-full px-1 pb-2 pt-4 border-[1px] border-black rounded-3xl pl-[20px] font-mainFont h-[90px]"
             type="text"
             id="message"
             value={message}
@@ -204,16 +192,30 @@ const WhatsappForm = () => {
         )}
       </div>
 
-      <div className="flex justify-center">
+      <div className="flex justify-end items-center w-[240px] desktop1:w-[320px]">
         <button
-          className="flex items-center w-full px-4 py-2 font-medium text-white transition bg-primary rounded-lg text-title1 h-14 phone2:h-14 phone3:h18 hover:bg-white hover:text-black"
+          className="flex items-center px-8 py-3 font-medium text-white transition bg-primary rounded-3xl text-title1 hover:bg-white hover:text-black"
           onClick={sendToWhatsapp}
         >
-          <div className="grid grid-cols-2 items-center justify-evenly w-[60%]">
-            <img src={WhatsAppIcon} className="w-10 h-10" alt="WhatsApp Icon" />
-            <p className="whitespace-nowrap text-paragraph4 phone1:text-paragraph5 phone2:text-title2 tablet1:text-title1">
-              Solicite contato
+          <div className="flex ">
+            <p className="text-paragraph4 leading-none phone1:text-paragraph5 phone2:text-title2 tablet1:text-title1 mr-[10px]">
+              Enviar
             </p>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              class="lucide lucide-send-horizontal"
+            >
+              <path d="m3 3 3 9-3 9 19-9Z" />
+              <path d="M6 12h16" />
+            </svg>
           </div>
         </button>
       </div>
