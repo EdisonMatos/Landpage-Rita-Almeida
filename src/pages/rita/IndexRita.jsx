@@ -11,6 +11,7 @@ import NavbarSection from "../../components/sections/NavbarSection";
 import ContactBarSection from "../../components/sections/ContactBarSection";
 import FloatingWhatsappButton from "../../components/interactives/FloatingWhatsappButton";
 import BackToTopButton from "../../components/interactives/BackToTopButton";
+import RoundedButton from "../../components/interactives/ButtonHover";
 
 export default function IndexRita() {
   return (
@@ -18,6 +19,7 @@ export default function IndexRita() {
       <ContactBarSection />
       <NavbarSection />
       <HeroSection />
+      <RoundedButton/>
       <Featuresv1 />
       <Featuresv2 />
       <AboutImgLeft />
