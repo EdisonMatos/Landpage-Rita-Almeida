@@ -60,30 +60,6 @@ export default function ListGroup() {
       </li>
       <li className="transition group h-[24px]">
         <Link
-          to="about"
-          className="relative font-semibold cursor-pointer"
-          spy={true}
-          smooth={true}
-          duration={500}
-          offset={-80}
-          href="#"
-        >
-          <span
-            className={`h-[24px] inline-block ${
-              scrolling ? "hover:text-primary" : ""
-            }`}
-          >
-            Sobre Nós
-          </span>
-          <div
-            className={`absolute -bottom-2 left-0 w-full h-0.5 opacity-0 group-hover:opacity-100 transition-opacity duration-300 ${
-              scrolling ? "bg-primary" : "bg-white"
-            }`}
-          ></div>
-        </Link>
-      </li>
-      <li className="transition group h-[24px]">
-        <Link
           to="service"
           className="relative font-semibold cursor-pointer"
           spy={true}
@@ -98,6 +74,30 @@ export default function ListGroup() {
             }`}
           >
             Serviços
+          </span>
+          <div
+            className={`absolute -bottom-2 left-0 w-full h-0.5 opacity-0 group-hover:opacity-100 transition-opacity duration-300 ${
+              scrolling ? "bg-primary" : "bg-white"
+            }`}
+          ></div>
+        </Link>
+      </li>
+      <li className="transition group h-[24px]">
+        <Link
+          to="about"
+          className="relative font-semibold cursor-pointer"
+          spy={true}
+          smooth={true}
+          duration={500}
+          offset={-80}
+          href="#"
+        >
+          <span
+            className={`h-[24px] inline-block ${
+              scrolling ? "hover:text-primary" : ""
+            }`}
+          >
+            Sobre Nós
           </span>
           <div
             className={`absolute -bottom-2 left-0 w-full h-0.5 opacity-0 group-hover:opacity-100 transition-opacity duration-300 ${
