@@ -104,7 +104,7 @@ function Footer() {
                     spy={true}
                     smooth={true}
                     duration={500}
-                    offset={-350}
+                    offset={-20}
                     href="#"
                   >
                     Serviços
@@ -119,7 +119,7 @@ function Footer() {
                     spy={true}
                     smooth={true}
                     duration={500}
-                    offset={-200}
+                    offset={-50}
                     href="#"
                   >
                     Sobre Mim
@@ -132,7 +132,7 @@ function Footer() {
                     spy={true}
                     smooth={true}
                     duration={500}
-                    offset={-300}
+                    offset={-50}
                     href="#"
                   >
                     Perguntas Frequentes
