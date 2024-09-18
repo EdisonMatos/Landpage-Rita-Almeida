@@ -126,10 +126,12 @@ export default function AboutImgRight() {
         <MotionDivDownToUp className="w-[100%] desktop1:w-[360px] desktop2:w-[300px]">
           <video
             className="w-[100%]"
-            autoPlay={true}
+            autoPlay={false}
             loop={true}
             muted={true}
             src={video}
+            controls
+            onfullscreenchange="document.exitFullscreen();"
           ></video>
         </MotionDivDownToUp>
       </SectionWrapper>
