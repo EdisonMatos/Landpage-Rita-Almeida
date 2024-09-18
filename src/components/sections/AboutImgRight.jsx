@@ -122,14 +122,13 @@ export default function AboutImgRight() {
         </div>
 
         <MotionDivDownToUp className="w-[100%] desktop1:w-[360px] desktop2:w-[300px]">
-          {/* <img
-            // onClick={handleClick}
-            src={imgAboutPhone}
-            alt="Foto de celular"
+          <video
             className="w-[100%]"
-          /> */}
-
-          <video className="w-[100%]" autoPlay={true} loop={true} muted={true} src={video}></video>
+            autoPlay={true}
+            loop={true}
+            muted={true}
+            src={video}
+          ></video>
         </MotionDivDownToUp>
       </SectionWrapper>
       {/* <Dialog
