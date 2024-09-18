@@ -10,7 +10,7 @@ import { Dialog } from "primereact/dialog";
 import "primereact/resources/themes/saga-blue/theme.css";
 import "primereact/resources/primereact.min.css";
 import "primeicons/primeicons.css";
-import video from "../../assets/imgs/about/videoRita3.mp4";
+import video from "../../assets/imgs/about/videoRita4.mp4";
 
 export default function AboutImgRight() {
   const [visible, setVisible] = useState(false);
