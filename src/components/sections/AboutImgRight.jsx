@@ -12,6 +12,8 @@ import "primereact/resources/primereact.min.css";
 import "primeicons/primeicons.css";
 import video from "../../assets/imgs/about/videoRita6.mp4";
 
+// comentárioparagerarnovocommit
+
 export default function AboutImgRight() {
   const [visible, setVisible] = useState(false);
 
