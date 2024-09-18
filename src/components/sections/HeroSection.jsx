@@ -43,7 +43,7 @@ export default function HeroSection() {
                     <a
                       href={whatsappContactLink}
                       target="_blank"
-                      className="invert"
+                      className=""
                     >
                       <ButtonWithIcon
                         label="Consultar Imóveis"
