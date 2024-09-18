@@ -130,6 +130,8 @@ export default function AboutImgRight() {
             loop={true}
             muted={true}
             src={video}
+            controls
+            onfullscreenchange="document.exitFullscreen();"
           ></video>
         </MotionDivDownToUp>
       </SectionWrapper>
