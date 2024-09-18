@@ -10,6 +10,9 @@ import { Dialog } from "primereact/dialog";
 import "primereact/resources/themes/saga-blue/theme.css";
 import "primereact/resources/primereact.min.css";
 import "primeicons/primeicons.css";
+import video from "../../assets/imgs/about/videoRita6.mp4";
+
+// comentárioparagerarnovocommit
 
 export default function AboutImgRight() {
   const [visible, setVisible] = useState(false);
@@ -121,12 +124,13 @@ export default function AboutImgRight() {
         </div>
 
         <MotionDivDownToUp className="w-[100%] desktop1:w-[360px] desktop2:w-[300px]">
-          <img
-            // onClick={handleClick}
-            src={imgAboutPhone}
-            alt="Foto de celular"
+          <video
             className="w-[100%]"
-          />
+            autoPlay={true}
+            loop={true}
+            muted={true}
+            src={video}
+          ></video>
         </MotionDivDownToUp>
       </SectionWrapper>
       {/* <Dialog
