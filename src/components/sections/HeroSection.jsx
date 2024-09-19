@@ -10,12 +10,20 @@ export default function HeroSection() {
   const [isRedirecting, setIsRedirecting] = useState(false);
 
   const handleWhatsAppClick = (e) => {
-    e.preventDefault(); // Evita redirecionamento imediato
-    setIsRedirecting(true); // Mostra algum estado de carregamento, se necessário
+    e.preventDefault(); // Evita o redirecionamento imediato
+    setIsRedirecting(true);
+
+    const link = document.createElement("a");
+    link.href = whatsappContactLink;
+    link.target = "_blank";
+    link.rel = "noopener noreferrer";
 
     setTimeout(() => {
-      window.open(whatsappContactLink, "_blank");
-      setIsRedirecting(false); // Oculta o estado de carregamento
+      // Adiciona o link temporário ao DOM e simula o clique
+      document.body.appendChild(link);
+      link.click();
+      document.body.removeChild(link);
+      setIsRedirecting(false);
     }, 2000); // Atraso de 2 segundos
   };
 
