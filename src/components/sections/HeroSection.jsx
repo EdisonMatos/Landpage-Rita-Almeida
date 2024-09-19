@@ -1,3 +1,4 @@
+import { useState } from "react";
 import MotionDivLeftToRight from "../animation/MotionDivLeftToRight";
 import bgImage from "../../assets/imgs/hero/bgHero.webp";
 import whatsappNumber from "../../abstractions/whats";
@@ -6,6 +7,18 @@ import ButtonWithIcon from "../interactives/ButtonWithIcon";
 const whatsappContactLink = `https://wa.me/` + `${whatsappNumber}`;
 
 export default function HeroSection() {
+  const [isRedirecting, setIsRedirecting] = useState(false);
+
+  const handleWhatsAppClick = (e) => {
+    e.preventDefault(); // Evita redirecionamento imediato
+    setIsRedirecting(true); // Mostra algum estado de carregamento, se necessário
+
+    setTimeout(() => {
+      window.open(whatsappContactLink, "_blank");
+      setIsRedirecting(false); // Oculta o estado de carregamento
+    }, 2000); // Atraso de 2 segundos
+  };
+
   return (
     <div className="font-mainFont" id="home">
       <div
@@ -15,7 +28,7 @@ export default function HeroSection() {
         <div className="bg-black bg-opacity-50 flex flex-col items-center">
           <div className="flex h-[120px] phone2:h-[120px] tablet1:h-[145px] desktop3:h-[145px]" />
           <div className="flex flex-col w-[90%] max-w-[1215px] items-start pb-[80px] pt-[50px] desktop1:pb-[100px] desktop1:pt-[80px]">
-            <div className=" desktop1:w-[700px] flex flex-col text-white">
+            <div className="desktop1:w-[700px] flex flex-col text-white">
               <MotionDivLeftToRight>
                 <div className="text-center desktop1:text-left w-auto font-secondFont phone1:text-paragraph4">
                   <p className="mb-[24px] bg-black bg-opacity-25 rounded-2xl px-[16px] py-[6px] inline-block">
@@ -40,13 +53,13 @@ export default function HeroSection() {
               <div className="w-full phone2:w-full tablet2:w-auto">
                 <MotionDivLeftToRight>
                   <div className="flex justify-center w-full desktop1:justify-start">
-                    <a
-                      href={whatsappContactLink}
-                      target="_blank"
-                      className=""
-                    >
+                    <a href={whatsappContactLink} onClick={handleWhatsAppClick}>
                       <ButtonWithIcon
-                        label="Consultar Imóveis"
+                        label={
+                          isRedirecting
+                            ? "Redirecionando..."
+                            : "Consultar Imóveis"
+                        }
                         icon={
                           <svg
                             xmlns="http://www.w3.org/2000/svg"
