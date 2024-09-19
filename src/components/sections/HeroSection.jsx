@@ -16,7 +16,7 @@ export default function HeroSection() {
     setTimeout(() => {
       window.location.href = whatsappContactLink; // Redireciona para o link diretamente
       setIsRedirecting(false);
-    }, 2000); // Atraso de 2 segundos
+    }, 1000); // Atraso de 1 segundo
   };
 
   return (
