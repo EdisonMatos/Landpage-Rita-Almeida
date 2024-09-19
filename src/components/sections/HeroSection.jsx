@@ -10,13 +10,11 @@ export default function HeroSection() {
   const [isRedirecting, setIsRedirecting] = useState(false);
 
   const handleWhatsAppClick = (e) => {
-    e.preventDefault(); // Previne o comportamento padrão
-
-    setIsRedirecting(true);
+    e.preventDefault(); // Evita redirecionamento imediato
+    setIsRedirecting(true); // Estado de carregamento, se necessário
 
     setTimeout(() => {
-      // Abre o link após 2 segundos
-      window.open(whatsappContactLink, "_blank", "noopener,noreferrer");
+      window.location.href = whatsappContactLink; // Redireciona para o link diretamente
       setIsRedirecting(false);
     }, 2000); // Atraso de 2 segundos
   };
