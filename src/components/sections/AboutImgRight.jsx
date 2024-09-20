@@ -3,14 +3,12 @@ import Paragraphs from "../sectionElements/Paragraphs";
 import SectionArea from "../sectionElements/SectionArea";
 import SectionTitles from "../sectionElements/SectionTitles";
 import SectionWrapper from "../sectionElements/SectionWrapper";
-import imgAboutPhone from "../../assets/imgs/about/phoneMockup.png";
 import MotionDivDownToUp from "../animation/MotionDivDownToUp";
 import ButtonWithIconLight from "../interactives/ButtonWithIconLight";
-import { Dialog } from "primereact/dialog";
 import "primereact/resources/themes/saga-blue/theme.css";
 import "primereact/resources/primereact.min.css";
 import "primeicons/primeicons.css";
-import video from "../../assets/imgs/about/videoRita6.mp4";
+import imgPhoneMock from "../../assets/imgs/about/phoneMockup.png";
 
 // comentárioparagerarnovocommit
 
@@ -49,7 +47,7 @@ export default function AboutImgRight() {
                 target="_blank"
               >
                 <ButtonWithIconLight
-                  label="Me siga no instagram"
+                  label="Me siga no Instagram"
                   icon={
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -123,27 +121,22 @@ export default function AboutImgRight() {
           </div>
         </div>
 
-        <MotionDivDownToUp className="w-[100%] desktop1:w-[360px] desktop2:w-[300px]">
-          <video
-            className="w-[100%]"
-            autoPlay={false}
-            loop={true}
-            muted={true}
-            src={video}
-            controls
-            onfullscreenchange="document.exitFullscreen();"
-          ></video>
+        <MotionDivDownToUp className="w-[100%] desktop1:w-[300px] desktop2:w-[360px] flex justify-center">
+          <img
+            src={imgPhoneMock}
+            alt="Celular mostrando rede social"
+            className="w-[100%] tablet1:w-[60%] desktop1:w-[auto] desktop1:h-[600px]"
+          />
+          {/* <iframe
+            width="100%"
+            height="100%"
+            src="https://www.youtube.com/embed/w_f57CyELZM?controls=0"
+            title="YouTube video"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowFullScreen
+                ></iframe> */}
         </MotionDivDownToUp>
       </SectionWrapper>
-      {/* <Dialog
-        header="Me siga nas redes sociais"
-        visible={visible}
-        onHide={() => setVisible(false)}
-        style={{ width: "50vw" }}
-        breakpoints={{ "960px": "75vw", "641px": "90vw" }}
-      >
-        <p className="m-0">Vídeo</p>
-      </Dialog> */}
     </SectionArea>
   );
 }
