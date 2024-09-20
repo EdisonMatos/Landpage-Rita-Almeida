@@ -8,6 +8,7 @@ import ButtonWithIconLight from "../interactives/ButtonWithIconLight";
 import "primereact/resources/themes/saga-blue/theme.css";
 import "primereact/resources/primereact.min.css";
 import "primeicons/primeicons.css";
+import imgPhoneMock from "../../assets/imgs/about/phoneMockup.png";
 
 // comentárioparagerarnovocommit
 
@@ -120,15 +121,20 @@ export default function AboutImgRight() {
           </div>
         </div>
 
-        <MotionDivDownToUp className="w-[100%] desktop1:w-[360px] desktop2:w-[300px] bg-red-500 h-[530px]">
-          <iframe
+        <MotionDivDownToUp className="w-[100%] desktop1:w-[300px] desktop2:w-[360px] flex justify-center">
+          <img
+            src={imgPhoneMock}
+            alt="Celular mostrando rede social"
+            className="w-[100%] tablet1:w-[60%] desktop1:w-[auto] desktop1:h-[600px]"
+          />
+          {/* <iframe
             width="100%"
             height="100%"
             src="https://www.youtube.com/embed/w_f57CyELZM?controls=0"
             title="YouTube video"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowFullScreen
-          ></iframe>
+                ></iframe> */}
         </MotionDivDownToUp>
       </SectionWrapper>
     </SectionArea>
