@@ -29,35 +29,21 @@ export default function AboutImgLeft() {
         setModalTitle("Sobre mim");
         setModalContent(
           <p>
-            Creci: 11798/PE<br></br> Ensino Superior: Administração - Facape
-            <br></br>
-            <br></br> Olá, me chamo Rita Almeida, sou corretora de imóveis há
-            mais de 10 anos e sou formada em Administração há 30. Decidi entrar
-            no ramo quando um colega me fez um elogio: "Rita, você é tão
-            comunicativa, deveria ser corretora de imóveis." Eu ainda fiquei
-            receosa: "Ah, isso não é para mim," mas decidi arriscar. Fiz o curso
-            quando minha filha ainda era pequena e não me arrependo da decisão
-            que tomei.<br></br>
-            <br></br> Com a minha formação em Administração, percebi rapidamente
-            que muitas das habilidades adquiridas durante o curso eram
-            essenciais no mercado imobiliário. A capacidade de negociar,
-            organizar finanças e entender os fundamentos econômicos são apenas
-            algumas das competências que me ajudaram a destacar-me na profissão.
-            <br></br>
-            <br></br> Nos primeiros anos, equilibrar a vida pessoal com a
-            profissional foi um desafio, especialmente sendo mãe de uma criança
-            pequena. Contudo, sempre busquei manter um alto padrão de ética e
-            dedicação, o que me permitiu construir uma reputação sólida e uma
-            base de clientes fiéis.<br></br>
-            <br></br> Ao longo dos anos, vi muitas mudanças no setor
-            imobiliário. A tecnologia transformou a maneira como interagimos com
-            clientes e como os imóveis são apresentados e comercializados.
-            Adaptar-me a essas mudanças foi essencial, e sempre procurei estar
-            atualizada, seja através de cursos de formação continuada ou
-            participando de seminários e workshops.<br></br>
-            <br></br> Hoje, posso dizer que minha carreira é uma grande paixão.
+            Olá, sou Rita de Cassia Sobreira de Almeida. <br></br>
+            Por questões profissionais decidi adquirir o nome, Rita Almeida,
+            para melhor comunicação nas redes sociais. <br /> <br />
+            Tenho formação acadêmica em administração de empresas há 30 anos, e
+            formação técnica corretora de imóveis há 10.
+            <br />
+            <br></br>Ser corretora de imóveis foi uma indicação de pessoas
+            próximas a mim, incentivaram pela minha personalidade comunicativa e
+            performance de conhecimento. <br />
+            <br />
+            Sou católica e acredito que Deus tem um caminho para todos!
+            <br />
+            <br />
             Cada dia traz um novo desafio e a oportunidade de ajudar alguém a
-            encontrar o lugar ideal para chamar de lar. Continuo empregando as
+            encontrar o local ideal para chamar de lar. Continuo empregando as
             habilidades de administração no meu dia a dia, gerenciando não
             apenas propriedades, mas também sonhos e expectativas.
           </p>
@@ -70,34 +56,21 @@ export default function AboutImgLeft() {
       setModalTitle("Sobre mim");
       setModalContent(
         <p>
-          Creci: 11798/PE<br></br> Ensino Superior: Administração - Facape
-          <br></br>
-          <br></br> Olá, me chamo Rita Almeida, sou corretora de imóveis há mais
-          de 10 anos e sou formada em Administração há 30. Decidi entrar no ramo
-          quando um colega me fez um elogio: "Rita, você é tão comunicativa,
-          deveria ser corretora de imóveis." Eu ainda fiquei receosa: "Ah, isso
-          não é para mim," mas decidi arriscar. Fiz o curso quando minha filha
-          ainda era pequena e não me arrependo da decisão que tomei.<br></br>
-          <br></br> Com a minha formação em Administração, percebi rapidamente
-          que muitas das habilidades adquiridas durante o curso eram essenciais
-          no mercado imobiliário. A capacidade de negociar, organizar finanças e
-          entender os fundamentos econômicos são apenas algumas das competências
-          que me ajudaram a destacar-me na profissão.
-          <br></br>
-          <br></br> Nos primeiros anos, equilibrar a vida pessoal com a
-          profissional foi um desafio, especialmente sendo mãe de uma criança
-          pequena. Contudo, sempre busquei manter um alto padrão de ética e
-          dedicação, o que me permitiu construir uma reputação sólida e uma base
-          de clientes fiéis.<br></br>
-          <br></br> Ao longo dos anos, vi muitas mudanças no setor imobiliário.
-          A tecnologia transformou a maneira como interagimos com clientes e
-          como os imóveis são apresentados e comercializados. Adaptar-me a essas
-          mudanças foi essencial, e sempre procurei estar atualizada, seja
-          através de cursos de formação continuada ou participando de seminários
-          e workshops.<br></br>
-          <br></br> Hoje, posso dizer que minha carreira é uma grande paixão.
+          Olá, sou Rita de Cassia Sobreira de Almeida. <br></br>
+          Por questões profissionais decidi adquirir o nome, Rita Almeida, para
+          melhor comunicação nas redes sociais. <br /> <br />
+          Tenho formação acadêmica em administração de empresas há 30 anos, e
+          formação técnica corretora de imóveis há 10.
+          <br />
+          <br></br>Ser corretora de imóveis foi uma indicação de pessoas
+          próximas a mim, incentivaram pela minha personalidade comunicativa e
+          performance de conhecimento. <br />
+          <br />
+          Sou católica e acredito que Deus tem um caminho para todos!
+          <br />
+          <br />
           Cada dia traz um novo desafio e a oportunidade de ajudar alguém a
-          encontrar o lugar ideal para chamar de lar. Continuo empregando as
+          encontrar o local ideal para chamar de lar. Continuo empregando as
           habilidades de administração no meu dia a dia, gerenciando não apenas
           propriedades, mas também sonhos e expectativas.
         </p>
