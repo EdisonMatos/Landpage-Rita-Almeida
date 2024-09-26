@@ -42,7 +42,7 @@ function Footer() {
                 strokeWidth={1}
                 className="text-white"
               />
-              <p>rcsalmeida2@yahoo.com.br</p>
+              <p>contato@ritaimoveispnz.com.br</p>
             </div>
           </div>
         </MotionDivDownToUp>
